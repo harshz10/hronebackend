@@ -124,15 +124,15 @@ DB_NAME=your_db_name
 uvicorn main:app --reload
 ```
 
-⚙️ Render Deployment Notes
+⚙️ Render Deployment Notes<br>
 ✅ requirements.txt contains all dependencies.<br>
 ✅ runtime.txt set to python-3.10.13. <br>
 ✅ .env variables added securely in Render Dashboard.<br>
 ✅ main:app is the entry point (via Uvicorn).<br>
 
 
-🧠 Author
-🔗 Harsh Nagar
+🧠 Author<br>
+🔗 Harsh Nagar<br>
 
 
 
