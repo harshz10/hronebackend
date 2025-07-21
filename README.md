@@ -96,10 +96,10 @@ Content-Type: application/json
 ## 🧾 How to Run Locally
 
 ### 1️⃣ Clone the repo
-...
+```
 git clone https://github.com/your-username/hronebackend.git
 cd hronebackend
-...
+```
 
 2️⃣ Create Virtual Environment
 <details> <summary><code>bash</code></summary>
