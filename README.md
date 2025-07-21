@@ -102,43 +102,27 @@ cd hronebackend
 ```
 
 2️⃣ Create Virtual Environment
-<details> <summary><code>bash</code></summary>
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-</details>
-
+```
 
 3️⃣ Install Dependencies
-<details> <summary><code>bash</code></summary>
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
-</details>
+```
 
-4️⃣ Set Up .env File
+4️⃣ Set up .env file
 Create a .env file in the root directory:
-
-<details> <summary><code>.env</code></summary>
-env
-Copy
-Edit
+```
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority
 DB_NAME=your_db_name
-</details>
+```
 
-
-5️⃣ Run the Server
-<details> <summary><code>bash</code></summary>
-bash
-Copy
-Edit
+5️⃣ Run the server
+```
 uvicorn main:app --reload
-</details>
-
+```
 
 ⚙️ Render Deployment Notes
 ✅ requirements.txt contains all dependencies
