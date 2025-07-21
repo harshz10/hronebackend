@@ -26,8 +26,25 @@ This is a backend service built using **FastAPI** and **MongoDB** to manage **Pr
 
 ## 📁 Folder Structure
 
-<pre><code> backend/ ├── main.py # FastAPI app entry point ├── routes/ │ ├── __init__.py │ ├── product.py # Product API routes │ └── order.py # Order API routes ├── models/ │ ├── __init__.py │ ├── product.py # Pydantic models for Product │ └── order.py # Pydantic models for Order ├── config/ │ └── db.py # MongoDB connection logic ├── .env # MongoDB URI (ignored in git) ├── .gitignore ├── requirements.txt # Project dependencies ├── runtime.txt # Python version for Render └── README.md </code></pre>
----
+```plaintext
+backend/
+├── main.py                  # FastAPI app entry point
+├── routes/
+│   ├── __init__.py
+│   ├── product.py           # Product API routes
+│   └── order.py             # Order API routes
+├── models/
+│   ├── __init__.py
+│   ├── product.py           # Pydantic models for Product
+│   └── order.py             # Pydantic models for Order
+├── config/
+│   └── db.py                # MongoDB connection logic
+├── .env                     # MongoDB URI (ignored in git)
+├── .gitignore
+├── requirements.txt         # Project dependencies
+├── runtime.txt              # Python version for Render
+└── README.md
+```
 
 ## 📦 Features
 
