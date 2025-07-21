@@ -70,21 +70,23 @@ backend/
 
 ---
 
-## 🧪 Example Request (Create Product)
 
+### Example Request (Create Product)
+
+```http
 POST /products
 Content-Type: application/json
+```
 
+```json
 {
-"name": "Laptop Bag",
-"description": "Waterproof laptop bag with compartments",
-"price": 1299.99,
-"sizes": ["small", "medium", "large"]
+  "name": "Laptop Bag",
+  "description": "Waterproof laptop bag with compartments",
+  "price": 1299.99,
+  "sizes": ["small", "medium", "large"]
 }
+```
 
-yaml
-Copy
-Edit
 
 ---
 
