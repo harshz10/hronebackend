@@ -90,44 +90,66 @@ Content-Type: application/json
 
 ---
 
+
+---
+
 ## 🧾 How to Run Locally
 
 ### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/your-username/hronebackend.git
 cd hronebackend
-2️⃣ Create virtual environment
+'''
+
+2️⃣ Create Virtual Environment
+<details> <summary><code>bash</code></summary>
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-3️⃣ Install dependencies
+</details>
+
+
+3️⃣ Install Dependencies
+<details> <summary><code>bash</code></summary>
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4️⃣ Set up .env file
+</details>
+
+4️⃣ Set Up .env File
 Create a .env file in the root directory:
 
+<details> <summary><code>.env</code></summary>
 env
 Copy
 Edit
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority
 DB_NAME=your_db_name
-5️⃣ Run the server
+</details>
+
+
+5️⃣ Run the Server
+<details> <summary><code>bash</code></summary>
 bash
 Copy
 Edit
 uvicorn main:app --reload
+</details>
+
+
 ⚙️ Render Deployment Notes
 ✅ requirements.txt contains all dependencies
-
 ✅ runtime.txt set to python-3.10.13
-
-✅ .env variables added securely in Render dashboard
-
+✅ .env variables added securely in Render Dashboard
 ✅ main:app is the entry point (via Uvicorn)
+
 
 🧠 Author
 🔗 Harsh Nagar
+
+
+
+
