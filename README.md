@@ -1,4 +1,4 @@
-# 🧠 HROne Backend Intern Hiring Task
+# 🧠 HROne Backend Task
 
 This is a backend service built using **FastAPI** and **MongoDB** to manage **Products** and **Orders**. It includes full CRUD operations and is deployed on **Render**, with auto-generated Swagger documentation.
 
