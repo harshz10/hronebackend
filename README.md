@@ -26,22 +26,22 @@ This is a backend service built using **FastAPI** and **MongoDB** to manage **Pr
 
 ## 📁 Folder Structure
 
-.
+backend/
 ├── main.py # FastAPI app entry point
 ├── routes/
 │ ├── init.py
-│ ├── product.py # Product endpoints
-│ └── order.py # Order endpoints
+│ ├── product.py # Product API routes
+│ └── order.py # Order API routes
 ├── models/
 │ ├── init.py
 │ ├── product.py # Pydantic models for Product
 │ └── order.py # Pydantic models for Order
 ├── config/
-│ └── db.py # MongoDB client connection
-├── .env # Contains sensitive DB credentials
+│ └── db.py # MongoDB connection logic
+├── .env # MongoDB URI (ignored in git)
 ├── .gitignore
-├── requirements.txt
-├── runtime.txt # Specifies Python version for Render
+├── requirements.txt # Project dependencies
+├── runtime.txt # Python version for Render
 └── README.md
 
 pgsql
