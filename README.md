@@ -125,10 +125,10 @@ uvicorn main:app --reload
 ```
 
 ⚙️ Render Deployment Notes
-✅ requirements.txt contains all dependencies.
-✅ runtime.txt set to python-3.10.13.
-✅ .env variables added securely in Render Dashboard.
-✅ main:app is the entry point (via Uvicorn).
+✅ requirements.txt contains all dependencies.<br>
+✅ runtime.txt set to python-3.10.13. <br>
+✅ .env variables added securely in Render Dashboard.<br>
+✅ main:app is the entry point (via Uvicorn).<br>
 
 
 🧠 Author
