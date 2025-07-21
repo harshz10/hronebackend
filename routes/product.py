@@ -9,8 +9,16 @@ router = APIRouter()
 
 @router.post("/products", status_code=201)
 def create_product(product: Product):
-    result = product_collection.insert_one(product.dict())
-    return {"_id": str(result.inserted_id)}
+    try:
+        print("👉 Received product:", product)
+        data = product.dict()
+        print("👉 Inserting into DB:", data)
+        result = product_collection.insert_one(data)
+        print("✅ Inserted ID:", result.inserted_id)
+        return {"_id": str(result.inserted_id)}
+    except Exception as e:
+        print("❌ Error in create_product:", str(e))
+        raise
 
 @router.get("/products", status_code=200)
 def list_products(
